@@ -30,13 +30,7 @@ body {
 }
 
 img {
-  max-width: 12%;
-  border-radius: 50%;
-  border: 2px solid var(--light-gray);
-  perspective: 1px;
-  overflow: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
+  max-width: 100%;
 }
 
 p {
@@ -60,6 +54,14 @@ span {
 
 .blackish {
   color: var(--vdark-blackish-blue);
+}
+
+.pattern {
+  position: absolute;
+  top: 0;
+  right: 28px;
+  height: 34%;
+  opacity: 0.2;
 }
 
 .card-1 {
@@ -102,6 +104,7 @@ span {
   width: 90%;
   margin: 2rem;
   max-width: 70rem;
+  position: relative;
 }
 
 .card {
@@ -137,6 +140,13 @@ span {
   gap: 1.188rem;
 }
 
+.profile-picture {
+  max-width: 12%;
+  border-radius: 50%;
+  border: 2px solid var(--light-gray);
+  perspective: 1px;
+  overflow: hidden;
+}
 
 .name {
   margin: 0;
@@ -167,6 +177,14 @@ span {
     .img-query {
       max-width: 6%;
     }
+
+    .pattern {
+      position: fixed;
+      top: 0;
+      right: 80px;
+      height: 44%;
+      opacity: 0.2;
+  }
 
 }
 
