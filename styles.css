@@ -145,6 +145,7 @@ span {
 .second-paragraph {
   margin: 0;
   margin-right: 0.563rem;
+  margin-top: 1rem;
   font-weight: normal;
   color: var(--light-gray);
   line-height: 1.3;
